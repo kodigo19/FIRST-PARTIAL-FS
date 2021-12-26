@@ -1,0 +1,14 @@
+.addToCartButton {
+  background-color: #ffd814;
+  border-radius: 1rem;
+  border: 1px #ffd814;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  font-weight: 600;
+}
+.buyNowButton {
+  background-color: #ff7e14;
+  border-radius: 1rem;
+  border: 1px #ff7e14;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  font-weight: 600;
+}

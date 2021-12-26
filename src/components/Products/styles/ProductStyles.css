@@ -1,0 +1,140 @@
+.product-container__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.product-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+  width: 24rem;
+  border: 1px solid gray;
+  border-radius: 2%;
+  box-shadow: 0.2rem 0.1rem 0.2rem 0.1rem gray;
+}
+.product-detail__category {
+  display: flex;
+  font-size: small;
+}
+.product-detail__category ul {
+  list-style: none;
+}
+.product-detail__category li {
+  display: inline-block;
+}
+.product-detail__category li a {
+  text-decoration: none;
+  color: gray;
+}
+.product-detail__category li :hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.li-separator {
+  margin-left: 0.5rem;
+}
+.product-card__body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.product-card__body h3 {
+  margin: 1rem 0rem 1rem 0rem;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+.product-card__image {
+  width: 6rem;
+}
+
+.product-detail__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.product-detail__category {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  width: 100%;
+}
+
+.product-detail__body {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.product-detail__image_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.product-detail__image_wrapper div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-detail__image_wrapper div img {
+  width: 20rem;
+}
+
+.product-detail__image_wrapper p {
+  font-size: 14px;
+}
+
+.product-detail__info_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 4rem 0rem 2rem;
+}
+.product-detail__info_title {
+  font-size: 2.5rem;
+}
+
+.product-detail__info_separator {
+  margin: 0.5rem 1rem rem 0rem;
+}
+
+.product-detail__rating {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.1rem;
+  color: #007185;
+}
+
+.product-detail__price {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.product-detail__price span {
+  color: #b12704;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.product-detail__hero_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.star-icon-style {
+    color:orangered;
+}
